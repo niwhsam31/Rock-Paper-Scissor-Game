@@ -1,0 +1,103 @@
+body{
+background-image: url(https://cdn.pixabay.com/photo/2015/09/12/23/45/checks-937564_1280.jpg);
+}
+#main_container{
+  background-color: rgba(35, 253, 209, 0.663) ;
+  display: flex;
+  position: relative;
+
+}
+.entire_game{
+  position: fixed;
+  left: 19.4%;
+  background:rgba(255, 255, 255, 0.581);
+  border-radius: 26px;
+}
+.view_score{
+  position: absolute;
+  right: 3%;
+  top: 50px;
+  background:rgba(255, 255, 255, 0.581);
+  border: 2px double black;
+  border-radius: 25px;
+  height: 7rem;
+  width: 22rem;
+}
+.head1{
+  text-align: center;
+  font-family: cursive;
+}
+.guide{
+  text-align: center;
+  font-family: cursive;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rock{
+  font-size: 900%;
+  border-radius: 50%;
+  margin: 2rem;
+  color: #1D9AF2;
+  background-color: #ffffff;
+  border: 1px solid #1D9AF2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.paper{
+  font-size: 900%;
+  border-radius: 50%;
+  margin: 2rem;
+  color: #1D9AF2;
+  background-color: #ffffff;
+  border: 1px solid #1D9AF2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.scissor{
+  font-size: 900%;
+  border-radius: 50%;
+  margin: 2rem;
+  color: #1D9AF2;
+  background-color: #ffffff;
+  border: 1px solid #1D9AF2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+}
+.player_display{
+  text-align: center;
+  font-size: 3rem;
+  font-family: cursive;
+}
+.computer_display{
+  text-align: center;
+  font-size: 3rem;
+  font-family: cursive;
+}
+.result_display{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2%;
+  font-family: cursive;
+  
+}
+.greenText,#playerScoreDisplay{
+  color : rgb(39, 208, 64);
+}
+.redText,#computerScoreDisplay{
+  color : rgb(216, 79, 19);
+}
+button:hover {
+box-shadow: 3px 3px #53a7ea, 3px 3px #53a7ea, 3px 3px #53a7ea;
+transform: translateX(-5px);
+}
+.scoreDisplay{
+  text-align: center;
+  font-family: cursive;
+  font-size: 200%;
+}
+
+  
